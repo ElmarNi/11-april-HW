@@ -1,0 +1,138 @@
+/*EX-1,EX-2,EX-3
+.bar-wrapper{
+    width: 1000px;
+    height: 30px;
+    background: rgba(211, 211, 211, 0.637);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 50px auto;
+    padding: 3px;
+    cursor: pointer;
+}
+.bar{
+    width: 0;
+    background: #68046878;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 1s linear;
+}
+button{
+    background: #68046878;
+    color: white;
+    padding: 10px 30px;
+    border-color: transparent;
+    transition: all .3s linear;
+}
+button:hover{
+    background: #300030af
+}
+.opacity{
+    opacity: 0;
+}
+p{
+    margin: 0;
+    padding-left: 7px;
+}
+.stop{
+    transition-delay: 1s;
+    position: absolute;
+    margin: 0;
+    transition: all .3s ease-in-out;
+}
+*/
+
+/*EX-4
+.listed img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: all .3s ease-in;
+    margin: 2px
+}
+img.hover:hover{
+    transform: scale(1.07);
+    border: 1px solid black;
+}
+.listed{
+    width: 940px;
+    margin: 100px auto;
+}
+img.focused{
+    width: 1000px;
+    height: 80vh;;
+}
+button{
+    border: transparent;
+    background: transparent;
+    outline: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .3s ease;
+}
+button:hover{
+    color: #680468e3
+}
+button i{
+    font-size: 35px;
+}
+.right-arrow{
+    right: 150px;
+}
+.left-arrow{
+    left: 150px;
+}
+.close{
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.close:hover{
+    color: #68046878
+}
+*/
+
+/*EX-5
+h1{
+    text-align: center;
+    margin: 30px 0
+}
+.username, .usersurname, .userpassword, .confirmpassword{
+    width: 49%;
+}
+.useremail, .alert{
+    width: 98.4%;
+}
+input{
+    margin: 5px 0;
+    padding: 15px;
+}
+button{
+    background: #68046878;
+    color: white;
+    padding: 10px 30px;
+    border-color: transparent;
+    transition: all .3s linear;
+}
+button:hover{
+    background: #300030af
+}
+*/
+
+/*EX-6
+select{
+    min-width: 200px;
+    margin: 100px 15px;
+    padding: 5px;
+}
+*/
+
+
